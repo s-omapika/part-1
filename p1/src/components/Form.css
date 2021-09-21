@@ -1,0 +1,132 @@
+.Main {
+  
+    height: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    font-size: medium;
+  
+  
+  
+
+
+}
+
+.Main label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.Main input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.Main input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+
+.Main Button {
+  
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #5c3d62;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .Main Button:hover,
+  .Main Button:active {
+    background-color: rgb(119, 18, 53);
+
+    border-color: #7a707c;
+  }
+  
+  .Main Button:focus {
+    outline: none;
+  }
+    
+  
+  
+     
+
+    .usli {
+  
+        margin: 2rem auto;
+        width: 90%;
+        max-width: 40rem;
+        
+
+
+
+    }
+      
+
+      .usli ul{  list-style: none;
+        padding: 1rem;
+    
+      }
+    
+      .usli li {
+        border: 1px solid #ccc;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+      
+    
+    }
+
+    .modal {
+      position: fixed;
+      top: 30vh;
+      left: 10%;
+      width: 80%;
+      z-index: 100;
+      overflow: hidden;
+      background-color: #7a707c;
+      
+    }
+    .modal header {
+      background: #231027;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    .modal header h2 {
+      margin: 0;
+      color: white;
+      
+    }
+     .mm {
+      margin: 0;
+      color: white;
+      
+     }
+
+     .bb{
+      text-align: center;
+     }
+    
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
